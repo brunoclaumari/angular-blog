@@ -1,0 +1,33 @@
+.content-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border: solid 2px blue;
+  margin-bottom: 5px;
+}
+
+.header__search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+.header__links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+  border: solid 2px;
+}
+
+.subscribe__button {
+  border:solid 1px coral;
+  margin-left: 10px;
+  border-radius: 4px;
+  color: coral;
+  padding: 8px;
+}
