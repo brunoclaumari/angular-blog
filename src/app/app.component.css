@@ -1,0 +1,13 @@
+app-home{
+  min-width: 300px;
+}
+
+@media screen and (min-width: 992px) {
+
+  /* app-home {
+      max-width: 992px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+  } */
+}

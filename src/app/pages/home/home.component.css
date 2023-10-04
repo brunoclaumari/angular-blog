@@ -1,0 +1,35 @@
+.lista__receitas{
+  border: solid 2px green;
+  display: grid;
+
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: 20px;
+}
+
+@media screen and (min-width: 450px) {
+
+  .lista__receitas {
+      grid-template-columns: 1fr 1fr;
+
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .lista__receitas {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .lista__receitas {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .lista__receitas {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

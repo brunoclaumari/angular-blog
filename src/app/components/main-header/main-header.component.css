@@ -1,16 +1,19 @@
 .content-header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  justify-content: center;
   padding: 10px;
   border: solid 2px blue;
   margin-bottom: 5px;
+  /* min-width: 360px; */
 }
 
 .header__search {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   margin-right: 20px;
   margin-left: 10px;
   padding-right: 10px;
@@ -18,10 +21,19 @@
 
 .header__links{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin-right: 20px;
   border: solid 2px;
+
+}
+
+.header__links > div > a{
+  text-decoration: none;
+}
+
+.itens__menu{
+  margin: 8px;
 }
 
 .subscribe__button {
@@ -30,4 +42,29 @@
   border-radius: 4px;
   color: coral;
   padding: 8px;
+}
+
+.search__in{
+  height: 30px;
+  border-radius: 15px;
+  padding: 2px;
+}
+
+@media screen and (min-width: 420px) {
+
+  .content-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header__search {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header__links{
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
 }

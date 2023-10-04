@@ -1,0 +1,84 @@
+*{
+  --baseWidth:50px;
+  --baseHeight:80px;
+  --multi:3;
+  --padding__padrao:5px;
+}
+
+.content__card {
+  /* border: solid 2px orange; */
+  width: 190px;
+  height: 400px;
+  background-color: bisque;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  /* padding: 5px; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.content__card:hover{
+  --scalarr:1.02;
+  -webkit-transform: scale(var(--scalarr));
+        -ms-transform: scale(var(--scalarr));
+        transform: scale(var(--scalarr));
+}
+
+.card__image{
+  border: solid 2px blue;
+  padding: 0;
+  height: 300px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.image{
+  border: solid 2px gray;
+  width: 100%;
+  height: 100%;
+/*   width: calc(var(--baseWidth) * var(--multi));
+  height: calc(var(--baseHeight) * var(--multi)); */
+}
+
+.titulo__receita, .destaque, .data__receita, h2,h3, h4, p{
+  background: transparent;
+
+}
+
+.destaque {
+  padding: var(--padding__padrao);
+  font-size: 7px;
+  font-weight: bold;
+  color: red;
+}
+
+.titulo__receita{
+  width: 85%;
+}
+.titulo__receita > a{
+  text-decoration: none;
+}
+
+.titulo__receita > a > h4{
+  font-family: 'Young Serif', serif;
+  position:-webkit-sticky ;
+  width: 100%;
+  text-align: center;
+  word-wrap: break-word;
+
+}
+
+.data__receita {
+  font-size: 8px;
+  font-weight: bold;
+  color: grey;
+  padding: var(--padding__padrao);
+}
+
+
