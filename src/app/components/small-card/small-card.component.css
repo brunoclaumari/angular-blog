@@ -56,6 +56,7 @@
   font-size: 7px;
   font-weight: bold;
   color: red;
+  text-transform: uppercase;
 }
 
 .titulo__receita{
