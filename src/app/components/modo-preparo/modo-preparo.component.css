@@ -1,0 +1,19 @@
+*{
+  background: transparent;
+}
+
+.preparo__conteiner{
+  /* border: solid 1px salmon; */
+  padding: 20px;
+}
+
+.preparo__conteiner > h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lista__ing > li {
+  /* display: inline-block; */
+  /* list-style-type: circle; */
+  margin-left: 25px;
+}

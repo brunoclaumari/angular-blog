@@ -7,10 +7,12 @@
   /* border: solid 2px blue; */
   margin-bottom: 5px;
   /* min-width: 360px; */
+  background-color: lawngreen;
 }
 
 .header__search {
   display: flex;
+  background: transparent;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -20,6 +22,7 @@
 }
 
 .header__links{
+  background: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,30 +32,36 @@
 }
 
 .header__links > div > a{
+  background: transparent;
   text-decoration: none;
 }
 
 .header__links > h4{
+  background: transparent;
   margin-right: 20px;
   margin-left: 20px;
   text-align: center;
 }
 
 .itens__menu{
+  background: transparent;
   margin: 6px;
   font-size: 14px;
   /* border: solid 1px blueviolet; */
 }
 
 .subscribe__button {
+
   border:solid 1px coral;
   margin-left: 10px;
   border-radius: 4px;
   color: coral;
   padding: 8px;
+  font-weight: bold;
 }
 
 .search__in{
+  /* background: transparent; */
   height: 30px;
   border-radius: 15px;
   padding: 2px;

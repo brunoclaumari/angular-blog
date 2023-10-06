@@ -1,0 +1,27 @@
+*{
+  background: transparent;
+}
+
+.conteiner__content{
+  /* border: solid 2px rgb(43, 255, 0); */
+  background: transparent;
+  background-color: blanchedalmond;
+  margin: 20px;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.content__title{
+  border: solid 2px blue;
+}
+
+.content__cover{
+  display: flex;
+  justify-content: center;
+}
+
+.content__cover > img{
+  border: solid 4px rgb(50, 201, 36);
+  width: 400px;
+  height: 300px;
+}

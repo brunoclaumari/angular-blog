@@ -9,6 +9,9 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
+import { IngredientesComponent } from './components/ingredientes/ingredientes.component';
+import { ModoPreparoComponent } from './components/modo-preparo/modo-preparo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { HomeComponent } from './pages/home/home.component';
     BigCardComponent,
     CarouselComponent,
     SmallCardComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent,
+    IngredientesComponent,
+    ModoPreparoComponent
   ],
   imports: [
     BrowserModule,
