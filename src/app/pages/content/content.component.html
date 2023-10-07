@@ -1,14 +1,20 @@
 <div class="conteiner__content">
   <div class="content__cover">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbF6ByzXcCjd9PVyPyAPrxLyNOS0CSOFd1Aw&usqp=CAU" alt="">
+    <img src={{photoCover}} alt="">
   </div>
   <div class="content__title">
-    <h1>BOLO DE CHOCOLATE</h1>
+    <h1>{{contentTitle}}</h1>
   </div>
   <div class="content__recipeContent">
-    <app-ingredientes etapa_receita="Massa"></app-ingredientes>
-    <app-modo-preparo ></app-modo-preparo>
-    <app-ingredientes etapa_receita="Cobertura"></app-ingredientes>
-    <app-modo-preparo ></app-modo-preparo>
+    <app-ingredientes
+    etapa_receita={{recipe_category}}
+    id={{id}}
+
+    ></app-ingredientes>
+    <app-modo-preparo
+    id={{id}}
+    ></app-modo-preparo>
+<!--     <app-ingredientes etapa_receita="Cobertura"></app-ingredientes>
+    <app-modo-preparo ></app-modo-preparo> -->
   </div>
 </div>

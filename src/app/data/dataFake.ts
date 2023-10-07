@@ -1,8 +1,8 @@
 export enum RecipeCategory {
-  Caseiro,
-  Salada,
-  Sobremesa,
-  CaldosSopas
+  Caseiro = "Caseiro",
+  Salada = "Salada",
+  Sobremesa = "Sobremesa",
+  CaldosSopas = "Caldos e sopas"
 }
 
 export const receitas = [
@@ -92,4 +92,13 @@ export const receitas = [
   }
 ]
 
+  export function getIngredients(id:number){
+    var item = receitas.filter(obj=>obj.id == id)[0]
+    return item.ingredients;
+  }
+
+  export function getPreparation(id:number){
+    var item = receitas.filter(obj=>obj.id == id)[0]
+    return item.preparation;
+  }
 

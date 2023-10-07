@@ -1,7 +1,5 @@
 .lista__receitas{
-  border: solid 2px green;
   display: grid;
-
   grid-template-columns: 1fr;
   justify-items: center;
   align-items: center;

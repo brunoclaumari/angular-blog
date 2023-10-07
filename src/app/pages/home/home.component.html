@@ -1,19 +1,30 @@
-
-
 <app-big-card></app-big-card>
-<div style="display: flex;margin: 15px; justify-content: center;">
+<div style="display: flex; margin: 15px; justify-content: center">
   <h2>Melhores Receitas</h2>
 </div>
-<div class="lista__receitas" >
-<app-small-card
-featured="Tenha vida saudável"
-link_image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkUFKTQdkWTy2uP1raSAmIi0VUhnM8DRoMyw&usqp=CAU"
-recipe_title="Salada com legumes"
-recipe_data="25 de setembro de 2022"
-></app-small-card>
+<div   class="lista__receitas" >
+  <div *ngFor="let data of recipe">
+    <app-small-card
+    id={{data.id}}
+    featured={{data.featured}}
+    link_image={{data.link_image}}
+    recipe_title={{data.recipe_title}}
+    recipe_data={{data.recipe_data}}
+    recipe_category={{data.recipe_category}}
+  ></app-small-card>
+  </div>
+
+<!--   <app-small-card
+    id="1"
+    featured="Tenha vida saudável"
+    link_image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkUFKTQdkWTy2uP1raSAmIi0VUhnM8DRoMyw&usqp=CAU"
+    recipe_title="Salada com legumes"
+    recipe_data="25 de setembro de 2022"
+  ></app-small-card> -->
+
+  <!-- <app-small-card></app-small-card>
 <app-small-card></app-small-card>
 <app-small-card></app-small-card>
 <app-small-card></app-small-card>
-<app-small-card></app-small-card>
-<app-small-card></app-small-card>
+<app-small-card></app-small-card> -->
 </div>

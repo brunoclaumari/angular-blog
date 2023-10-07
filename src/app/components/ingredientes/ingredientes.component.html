@@ -1,11 +1,12 @@
 <div class="ingredientes__conteiner" >
-  <h2>{{etapa_receita}}</h2>
+  <h2>Categoria: {{etapa_receita}}</h2>
   <hr>
   <h3>Ingredientes</h3>
-  <ul class="lista__ing">
-    <li>1 e meia xícara de chá de leite</li>
+  <ul *ngFor="let item of ingredients"  class="lista__ing">
+    <li >{{item}}</li>
+<!--     <li>1 e meia xícara de chá de leite</li>
     <li>Meia xícara de chá de chocolate em pó</li>
     <li>1 colher de sopa de manteiga</li>
-    <li>1 xícara de chá de açúcar</li>
+    <li>1 xícara de chá de açúcar</li> -->
   </ul>
 </div>

@@ -8,6 +8,9 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SmallCardComponent implements OnInit {
 
   @Input()
+  id:string = "0";
+
+  @Input()
   link_image:string='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJvXmeUX4XVM1b7VJ_GzdzibbHG99fQL-WEjMGLlpll-CM1qxRbaFNCuAC6jEtpRMMjY&usqp=CAU';
 
   @Input()

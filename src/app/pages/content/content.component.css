@@ -3,7 +3,6 @@
 }
 
 .conteiner__content{
-  /* border: solid 2px rgb(43, 255, 0); */
   background: transparent;
   background-color: blanchedalmond;
   margin: 20px;
@@ -12,7 +11,7 @@
 }
 
 .content__title{
-  border: solid 2px blue;
+  padding-left: 20px;
 }
 
 .content__cover{
